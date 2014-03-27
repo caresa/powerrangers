@@ -69,7 +69,7 @@ class EvilNinja < Person
 
 	include Fight
 
-	attr_accessor :strenth
+	attr_accessor :strength
 
 	def initialize(strength, evilness)
 		@strenth = strength
